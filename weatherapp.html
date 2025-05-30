@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.bundle.min.js">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        box-sizing: border-box;
+    }
+
+    body {
+        background:url(https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-13137.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .card {
+        width: 90%;
+        max-width: 470px;
+        background:rgba(255, 255, 255, .1);
+        backdrop-filter: blur(30px);
+        border: 2px solid rgba(255, 255, 255, .2);
+        color: white;
+        margin: 100px;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search input {
+        border: 0;
+        outline: 0;
+        background: #00008b2b;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .search button {
+        border: 0;
+        outline: 0;
+        background: #963c6d78;
+        border-radius: 50%;
+        width: 60px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .search button img {
+        width: 16px;
+
+    }
+
+    .weather-icon {
+        width: 170px;
+        margin-top: 30px;
+    }
+
+    .weather h1 {
+        font-size: 80px;
+        font-weight: 500;
+    }
+
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 50px;
+
+
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        text-align: left;
+
+    }
+
+    .col img {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 28px;
+        margin-top: -10px;
+
+    }
+</style>
+
+<body>
+    <center>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button>
+                    <img src="image/search.jpg" alt="">
+                </button>
+            </div>
+
+            <div class="weather">
+                <img src="image/cloud+sun.jpg" alt="">
+                <h1 class="temp">25° C</h1>
+                <h2 class="city">gwalior</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="image/hiumiod.jpg" alt="" width="50">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="image/humid+rain.jpg" alt="" width="50">
+                        <div>
+                            <p class="wind">15km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div><!--  details end-->
+            </div><!--  weather end-->
+        </div><!--card end-->
+
+    </center>
+    <script src="weatherapp.js"></script>
+</body>
+
+</html>

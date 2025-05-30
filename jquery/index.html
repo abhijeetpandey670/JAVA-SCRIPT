@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        body {
+            background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAwQDAwQGBAMEBgcFBAQFBwgGBgcGBggKCAkJCQkICgoMDAwMDAoMDA0NDAwRERERERQUFBQUFBQUFBT/2wBDAQQFBQgHCA8KCg8UDg4OFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAoACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUGCP/EACIQAQAABQMFAQAAAAAAAAAAAAAFFUNjgqLB4RESEzVRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDv4AE6K0stgTgAaIAE6K0stgTgAUZra1cATW1q4A9na8WXXu/PgEqu6eQJVd08gnAAowqrjuCiADOgAowqrjuCiAD/2Q==);
+          
+         }
+    </style>
+
+
+</head>
+
+<body>
+    <h4 class="text-white text-center font-weight-bold bg-dark"> Complete Form Validation In
+        jQuery</h4>
+
+    <div class="container"><br>
+
+        <div class="col-lg-6 m-auto d-block">
+
+            <form id="myvalidation" class="bg-light">
+
+                <div class="mb-3">
+                    <label for="user" class="font-weight-bold"> Name: </label>
+                    <input type="text" name="name" class="form-control" autocomplete="off">
+
+                </div>
+
+                <div class="mb-3">
+                    <label class="font-weight-bold"> Mobile Number: </label>
+                    <input type="text" name="mobile" class="form-control" id="mobileNumber" autocomplete="off">
+
+                </div>
+
+                <div class="mb-3">
+                    <label class="font-weight-bold"> Password: </label>
+                    <input type="text" id="password" name="password" class="form-control" autocomplete="off">
+
+                </div>
+                <div class="mb-3">
+                    <label class="font-weight-bold"> Confirm Password: </label>
+                    <input type="text" name="cpassword" class="form-control" autocomplete="off">
+
+                </div>
+
+                <div class="mb-3">
+                    <label class="font-weight-bold"> Email: </label>
+                    <input type="email" name="email" class="form-control" id="emails" autocomplete="off">
+
+                </div>
+                <div class="mb-3 gen">
+                    <label class="font-weight-bold"> Gender: </label>
+                    <div class="form-check">
+                        <input class="form-check-input" value="male" type="radio" name="gender">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                        <br>
+                        <input class="form-check-input" value="female" type="radio" name="gender">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Female
+                        </label>
+                    </div>
+
+                </div>
+                <div class="mb-3">
+                    <label class="font-weight-bold"> Course: </label>
+                    <select name="course" id="" class="course form-select form-control">
+                        <option value="">Courses</option>
+                        <option value="bca">BCA</option>
+                        <option value="mca">MCA</option>
+
+                    </select>
+                </div>
+
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="validation.js"></script>
+</body>
+
+</html>

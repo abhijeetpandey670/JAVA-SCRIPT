@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="formvalidation.js"></script>
+    <style>
+    body{
+        background: #ddacac;
+        font-family: serif;
+    }
+    .container{
+        margin-top: 65px;
+        /* background: #e46161; */
+        border-radius: 20px;
+    }
+    .container input{
+        border-radius: 20px;
+    }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <form onsubmit="return validation()" class="bg-light">
+
+            <div class="from-group">
+                <label for="user" class="font-weight-bold">Username:</label>
+                <input type="text" name="user" class="form-control" id="user" autocomplete="off">
+                <span id="username" class="text-danger font-weight-bold" > </span>
+
+                <button type="submit">Submit</button>
+    </div>
+    </form>
+
+</div>
+
+</center>
+
+</body>
+</html>

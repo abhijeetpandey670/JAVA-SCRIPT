@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.bundle.min.js">
+    
+    <style>
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #fff url('https://www.animatedimages.org/data/media/105/animated-woman-image-0261.gif') no-repeat center;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body onload="loadfunction()">
+    <div id="loading"></div>
+    <h1>asss</h1>
+  <script>
+    let preloader = document.getElementById('loading')
+
+    function loadfunction (){
+        preloader.style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+ * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+
+ body {
+      background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAwQDAwQGBAMEBgcFBAQFBwgGBgcGBggKCAkJCQkICgoMDAwMDAoMDA0NDAwRERERERQUFBQUFBQUFBT/2wBDAQQFBQgHCA8KCg8UDg4OFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAoACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUGCP/EACIQAQAABQMFAQAAAAAAAAAAAAAFFUNjgqLB4RESEzVRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDv4AE6K0stgTgAaIAE6K0stgTgAUZra1cATW1q4A9na8WXXu/PgEqu6eQJVd08gnAAowqrjuCiADOgAowqrjuCiAD/2Q==); 
+     color: white;
+     overflow: hidden;
+    
+
+ }
+
+ .todo-wrapper {
+     background: #353434;
+     padding: 2%;
+     margin-top: -52px;
+     box-shadow: 0px 5px 7px rgb(9, rgb(6, 6, 6), blue);
+ }
+
+ .display {
+     margin-left: 26%;
+     margin-right: 26%;
+
+ }
+
+ .table {
+     text-align: center;
+ }
+
+ .input-group {
+     color: green;
+ }
+
+ .form-control {
+     font-style: italic;
+     font-size: 26px;
+     text-align: center;
+ }
